@@ -9,6 +9,6 @@ for indice in range(0, len(lista_de_precos)):
     if indice % 2 == 0:
         print(f'{lista_de_precos[indice]:.<30}', end='')
     else:
-        
         print(f'R${lista_de_precos[indice]:>7.2f}')
+        print('TESTE')
 print('_'*40)
